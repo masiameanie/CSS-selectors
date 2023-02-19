@@ -1,0 +1,15 @@
+h2 + p {
+    color: red;
+}
+/* both formulas below are valid */
+/* 1st one */
+ul.list > li {
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+
+/* 2nd one - but that one is more complicated, therefore use the 1st formula
+ul[class="list"] > li {
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
